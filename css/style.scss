@@ -1,0 +1,316 @@
+@import 'variable';
+@import 'nivo-slider';
+@import 'bar';
+@import 'dark';
+@import 'default';
+@import 'light';
+@import 'style1';
+
+body
+{
+	margin:0;
+	padding:0;
+	font-family:verdana;
+	list-style:none;
+	background-color:#fff;
+}
+
+.wrapper
+{
+	width:$wrapwidth;
+}
+
+.main
+{
+	width:$mainwidth;
+	margin:0 auto;
+}
+
+.header
+{
+	width:$wrapwidth;
+	float:$headerfloat;
+	height:$headerheight;
+	position:$position_r;
+	margin-bottom:20px;
+}
+
+.header .logo
+{
+	width:$headerlogo;
+	float:$headerfloat;
+	margin:15px 0 0 2px;
+}
+.heder .logo img
+{
+	width:$image;
+}
+
+.header .google
+{
+	width:$headergoogle;
+	float:$headerfloat;
+	padding-left:30px;
+	padding-top:20px;
+}
+.header .google img
+{
+	width:$image;
+}
+.header .sv
+{
+	text-align:$headersv;
+	font-size:$headersvsize;
+	float:$headersv;
+	padding-top:15px;
+	color:$headersvcolor;
+	font-family:$headersvfont;
+}
+.header .sv span
+{
+	color:$headersvspan;
+	font-size:$headersvssize;
+}
+
+.main_slider
+{
+	width:$wrapwidth;
+	float:$mainslider;
+	padding:20px 0 0 0;
+}
+.nav
+{
+	width:$wrapwidth;
+	float:$nav;
+	background-color:$navbgcolor;
+	position:$position_a;
+	top:$navtop;
+	z-index:$navzindex;
+}
+.nav ul
+{
+	float:$nav;
+	margin:0 0 0 0;
+
+}
+.nav ul li 
+{
+	float:$nav;
+	margin:15px 10px;
+	list-style:$navstyle;
+	
+}
+.nav ul li a
+{
+	text-decoration:$navulliatext;
+	font-size:$navulliasize;
+	color:$navulliacolor;
+}
+.nav ul li a:hover
+{
+	color:$navulliahovercolor;
+}
+
+.search
+{
+	width:$searchwidth;
+	float:$searchfloat;
+	background:$searchbgcolor;
+	border-radius:$searchborder;
+	top:$searchtop;
+	z-index:$navzindex;
+	position:$position_a;
+}
+.search h3
+{
+	
+	color:$searchcolorh;
+	font-size:$searchsizeh;
+	font-weight:$searchweight;
+	text-transform:uppercase;
+	text-shadow:$searchtshadow;
+	padding:10px 0 0 20px;
+	float:$searchfloat;
+}
+.search label
+{
+	color:$navulliacolor;
+	padding:0 0 0 20px;
+    float:$searchfloat;
+}
+.search input[type="text"]
+{
+
+	float:$inputfloat;
+	margin:0 22px 15px 20px;
+	width:$inputwidth;
+	height:$inputheight;
+	font-size:$inputsize;
+	font-weight:$inputweight;
+}
+.search input[type="date"]
+{
+
+	float:$inputfloat;
+	margin:0 22px 15px 20px;
+	width:$inputwidth;
+	height:$inputheight;
+	font-size:$inputsize;
+	font-weight:$inputweight;
+	color:$inputcolor;
+}
+.search input[type="button"]
+{
+
+	float:$inputfloat;
+	margin:5px 22px 15px 20px;
+	width:$inputwidth;
+	height:$inputheight;
+	font-size:$inputsize;
+	font-weight:$inputweight;
+	background-color:$inputbgcolor;
+	color:$inputbuttoncolor;
+}
+.content
+{
+	width:$contentwidth;
+	float:$contentfloat;
+	margin-top:0;
+	
+}
+.content .left
+{
+	width:$contentleftwidth;
+	float:$contentleftfloat;
+}
+.content .left h2
+{
+	font-size:$contentlefthsize;
+	margin-top:20px;
+	float:$contentleftfloat;
+	text-transform:$contentlefttransform;
+	color:$contentleftcolor;
+	font-weight:$inputweight;
+}
+.content .left p
+{
+	
+	font-size:$contentlefthsize;
+	float:$contentleftfloat;
+	margin:15px 0 0 0;
+	line-height:$contentleftpline;
+	text-align:$contentleftpalign;
+	
+}
+
+ .content .right
+{
+	width:$contentrightwidth;
+	float:$contentrightfloat;
+	
+	
+}
+.content .right h2
+{
+	font-size:$contentlefthsize;
+	margin-top:15px;
+	text-transform:$contentlefttransform;
+	color:$contentleftcolor;
+	font-weight:$inputweight;
+	
+}
+
+.content .right ul 
+{ 
+	padding:0 30px; 
+}
+ .content .right ul li 
+{ 
+	margin-bottom:10px; 
+	padding-left:10px; 
+	 
+	}
+.content .right ul li img
+{
+	width:$contentrightimg;
+	margin:0 10px 0 0;
+} 
+.content .right li a 
+{
+    font-size:$contentrightsize;	
+	color:$contentrightcolor; 
+	text-decoration:$contentrightdecoration;
+	text-align:$contentrightalign;
+}
+
+.mar
+{ 
+	border:$marboder;
+	box-shadow:$marshadow;
+	margin:15px 0 0 0;
+	
+}
+
+.p1
+{
+	width:$contentwidth;
+	float:$contentfloat;
+	margin:20px 0 0 0;
+}
+.p1 .photo
+{
+	width:$pphotowidth;
+	float:$contentfloat;
+	margin:13px;
+}
+.p1 .photo img
+{
+	width:$contentwidth;
+	margin:10px;
+}
+
+.footer
+{
+	width:$footerwidth;
+	float:$footerfloat;
+	background-color:$footerbgcolor;
+	margin:10px 0 0 0;
+	
+}
+.san
+{
+	width:$footerwidth;
+	float:$footerfloat;
+	background-color:$footerbgcolor;
+	
+}
+.san ul
+{
+	float:$footerfloat;
+	
+}
+
+.san ul li
+{
+
+	font-size:$footerlisize;
+	float:$footerfloat;
+	display:$footerlidisplay;
+	margin:20px 0 20px 20px;
+	
+	
+}
+.san ul li a
+{
+	text-decoration:$contentrightdecoration;
+	color:$footerliacolor;
+}
+
+.san p
+{
+	text-align:$footerlisanpalign;
+	margin-top:10px;
+	float:$footerlisanpalign;
+	font-size:$footerlisize;
+	color:$footerlisanpcolor;
+}
